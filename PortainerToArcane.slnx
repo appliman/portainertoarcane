@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/PortainerToArcane/PortainerToArcane.csproj" />
+  <Project Path="tests/PortainerToArcane.Tests/PortainerToArcane.Tests.csproj" />
+</Solution>

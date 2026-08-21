@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>portainer-to-arcane</AssemblyName>
+    <RootNamespace>PortainerToArcane</RootNamespace>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>portainer-to-arcane</ToolCommandName>
+    <PackageId>Appliman.PortainerToArcane</PackageId>
+    <Version>0.1.0</Version>
+    <Description>Guided TUI migration assistant from Portainer to Arcane.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Spectre.Console" Version="0.57.2" />
+    <PackageReference Include="YamlDotNet" Version="18.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>

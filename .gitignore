@@ -427,3 +427,18 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# PortainerToArcane sensitive migration artifacts
+.portainer-to-arcane/
+arcane-projects/
+MigrationRuns/
+*.tar
+*.tar.gz
+*.tgz
+.env
+portainer.db
+portainer.key
+portainer.pub
+*.pem
+*.p12
+*.key
